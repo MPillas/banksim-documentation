@@ -14,3 +14,6 @@ injection sets simultaneously. For each event, the workflow:
 #. Splits the injections with ``pycbc_split_inspinj``.
 #. Runs ``pycbc_banksim`` to calculate the fitting factors of the simulated signals with the template bank.
 #. Concatenates output files from ``pycbc_banksim`` split over bank files using ``pycbc_banksim_combine_banks``.
+#. Concatenates output files from pycbc_banksim_combine_banks with a set of injection files running ``pycbc_banksim_match_combine``.
+#. Makes a summary result table for a set of point injection runs with ``pycbc_banksim_table_point_injs``.
+#. Creates diagnosis plots and figures of merit
