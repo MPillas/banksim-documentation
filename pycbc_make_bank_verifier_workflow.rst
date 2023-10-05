@@ -25,7 +25,7 @@ The bank verificator workflow requires at least one set of broad injections (sca
 Multiple sets of broad/point injections can be given by creating more dedicated configuration files and thus adding sections to the workflow configuration file.
 
 A path to a Python script called ``filter_func.py`` should also be provided. One way to proceed is to download and copy the script in the same repository as the configuration files. 
-This script creates versions of the final results plots in which short-duration injections are ignored. The threshold on the duration and the approximant used to compute it can be changed by modifying your copy of the script.
+This script creates versions of the final results plots in which short-duration injections are ignored. The threshold on the duration, the approximant used to compute it and the ASD file should be changed according to your needs by modifying your copy of the script.
 
 To illustrate how to setup and use a workflow, below we provide an example for BBH injections of how to setup the workflow to analyze. BNS and NSBH injections can be added by providing other configuration files.
 
@@ -58,6 +58,15 @@ Setup the workflow configuration file
 
 :download:`Download <global_setup.ini>`
 
+**Notes**:
+* In the ``[pegasus_profile]`` section an accounting group should be specified.
+* If the jobs take too long to run, you can increase the ``splittable-num-banks`` parameter both for ``[workflow-splittable-*injbanksplit]`` and ``[workflow-splittable-*injs]``.
+*  Change the ``seed`` everytime you create a different workflow.
+This sets the seed that is passed to ``pycbc_banksim`` (you set it here
+because it will be incremented for every ``pycbc_banksim`` job that will be
+run in the workflow).
+
+
 --------------------------------------------
 Get the filter function
 --------------------------------------------
@@ -67,7 +76,7 @@ Get the filter function
 :download:`Download <filter_func.py>`
 
 --------------------------------------------
-Generate the workflow
+Generate and submit the workflow
 --------------------------------------------
 
 Assuming that you have downloaded all of the configuration files to the
@@ -82,3 +91,16 @@ Note that you need to set the ``output-dir`` before running. This tells the
 workflow where to save the results page when done. You can also change
 ``workflow-name`` if you like.
 
+Finally, the argument ``submit-now`` automatically plans and submits the workflow.
+
+Once it is running, you can monitor the status of the workflow by running
+``./status`` from within the ``output-dir`` directory. If your
+workflow fails for any reason, you can see what caused the failure by running
+``./debug``. If you need to stop the workflow at any point, run ``./stop``.
+To resume a workflow, run ``./start``. 
+
+------------
+Results page
+------------
+When the workflow has completed successfully it will write out the results
+page to the directory you specified
