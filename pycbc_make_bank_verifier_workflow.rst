@@ -16,4 +16,5 @@ injection sets simultaneously. For each event, the workflow:
 #. Concatenates output files from ``pycbc_banksim`` split over bank files using ``pycbc_banksim_combine_banks``.
 #. Concatenates output files from pycbc_banksim_combine_banks with a set of injection files running ``pycbc_banksim_match_combine``.
 #. Makes a summary result table for a set of point injection runs with ``pycbc_banksim_table_point_injs``.
-#. Creates diagnosis plots and figures of merit
+#. Creates diagnosis plots and figures of merit using ``pycbc_banksim_plot_eff_fitting_factor`` and ``pycbc_banksim_plot_fitting_factors``.
+#. Generates a results html page that gathers all of the results with ``pycbc_make_html_page``.
