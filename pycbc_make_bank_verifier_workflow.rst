@@ -25,3 +25,8 @@ The workflow generator also needs configuration files that indicate the paramete
 The bank verificator workflow requires at least one set of broad injections (scattered over the parameter space) and one of point injections (at ~fix masses).
 Multiple sets of broad/point injections can be given by creating more dedicated configuration files and thus adding sections to the workflow configuration file.
 
+A path to a Python script called ``filter_func.py`` should also be provided. One way to proceed is to download and copy the script in the same repository as the configuration files.
+
+To illustrate how to setup and use a workflow, below we provide an example
+of how to setup the workflow to analyze
+
