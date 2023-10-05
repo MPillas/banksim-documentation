@@ -33,4 +33,19 @@ To illustrate how to setup and use a workflow, below we provide an example for B
 This workflow will produce a results page that looks like the example
 `Bank verifier BBH injections <https://ldas-jobs.ligo-wa.caltech.edu/~marion.pillas/template_bank/O3PSD/BBH/bank_output_BBH/>`_. 
 
+--------------------------------------------
+Get the injection configuration files
+--------------------------------------------
+**Broad injections:**
 
+.. literalinclude:: ../broadinjs1_config.ini 
+   :language: ini
+
+:download:`Download <../broadinjs1_config.ini>`
+
+**Point injections:**
+
+.. literalinclude:: ../pointinj_1.12_1.07_config.ini 
+   :language: ini
+
+:download:`Download <../pointinj_1.12_1.07_config.ini>`
