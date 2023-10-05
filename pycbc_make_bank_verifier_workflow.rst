@@ -42,7 +42,7 @@ Get the injection configuration files
    :language: ini
 
 :download:`Download <pointinj_1.12_1.07_config.ini>`
-:download:`Download <pointinj_1.12_1.07_config.ini>`
+
 **Point injections:**
 
 .. literalinclude:: pointinj_1.12_1.07_config.ini
