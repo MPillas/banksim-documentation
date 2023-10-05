@@ -38,14 +38,14 @@ Get the injection configuration files
 --------------------------------------------
 **Broad injections:**
 
-.. literalinclude:: https://github.com/MPillas/banksim-documentation/blob/2b6135fa9c0d7d6f5aca1e95af0547f005edda29/pointinj_1.12_1.07_config.ini
+.. literalinclude:: pointinj_1.12_1.07_config.ini
    :language: ini
 
-:download:`Download <https://github.com/MPillas/banksim-documentation/blob/2b6135fa9c0d7d6f5aca1e95af0547f005edda29/pointinj_1.12_1.07_config.ini>`
-
+:download:`Download <pointinj_1.12_1.07_config.ini>`
+:download:`Download <pointinj_1.12_1.07_config.ini>`
 **Point injections:**
 
-.. literalinclude:: https://github.com/MPillas/banksim-documentation/blob/2b6135fa9c0d7d6f5aca1e95af0547f005edda29/pointinj_1.12_1.07_config.ini
+.. literalinclude:: pointinj_1.12_1.07_config.ini
    :language: ini
 
-:download:`Download <https://github.com/MPillas/banksim-documentation/blob/2b6135fa9c0d7d6f5aca1e95af0547f005edda29/pointinj_1.12_1.07_config.ini>`
+:download:`Download <pointinj_1.12_1.07_config.ini>`
