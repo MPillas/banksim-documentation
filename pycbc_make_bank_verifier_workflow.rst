@@ -31,6 +31,6 @@ This script creates versions of the final results plots in which short-duration 
 To illustrate how to setup and use a workflow, below we provide an example for BBH injections of how to setup the workflow to analyze. BNS and NSBH injections can be added by providing other configuration files.
 
 This workflow will produce a results page that looks like the example
-`Bank verifier BBH injections <https://ldas-jobs.ligo-wa.caltech.edu/~marion.pillas/template_bank/O3PSD/BBH/bank_output_BBH/>`_.
+`Bank verifier BBH injections <https://ldas-jobs.ligo-wa.caltech.edu/~marion.pillas/template_bank/O3PSD/BBH/bank_output_BBH/>`_. 
 
 
