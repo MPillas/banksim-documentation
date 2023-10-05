@@ -38,10 +38,10 @@ Get the injection configuration files
 --------------------------------------------
 **Broad injections:**
 
-.. literalinclude:: pointinj_1.12_1.07_config.ini
+.. literalinclude:: broadinjs1_config.ini
    :language: ini
 
-:download:`Download <pointinj_1.12_1.07_config.ini>`
+:download:`Download <broadinjs1_config.ini>`
 
 **Point injections:**
 
@@ -49,3 +49,25 @@ Get the injection configuration files
    :language: ini
 
 :download:`Download <pointinj_1.12_1.07_config.ini>`
+
+--------------------------------------------
+Setup the workflow configuration file
+--------------------------------------------
+
+.. literalinclude:: global_setup.ini
+   :language: ini
+
+:download:`Download <global_setup.ini>`
+
+--------------------------------------------
+Get the filter function
+--------------------------------------------
+.. literalinclude:: filter_func.py
+   :language: python
+
+:download:`Download <filter_func.py>`
+
+--------------------------------------------
+Generate the workflow
+--------------------------------------------
+
