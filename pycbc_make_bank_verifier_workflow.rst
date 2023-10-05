@@ -21,6 +21,7 @@ injection sets simultaneously. For each event, the workflow:
 
 The workflow generator requires a configuration file that tells it how to split the bank and the injections, and any other settings to use for the various executables that are run.
 
+The workflow generator also needs configuration files that indicate the parameter space covered by the injections. These are separate from the workflow configuration file
 The bank verificator workflow requires at least one set of broad injections (scattered over the parameter space) and one of point injections (at ~fix masses).
-Multiple sets of broad/point injections can be given by creating more dedicated configuration files and thus adding sections to the global configuration file.
+Multiple sets of broad/point injections can be given by creating more dedicated configuration files and thus adding sections to the workflow configuration file.
 
