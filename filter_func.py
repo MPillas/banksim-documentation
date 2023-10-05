@@ -1,3 +1,5 @@
+""" This script filters the injections by duration and keeps only those with a duration above 0.15 s. This value can be directly changed in the script. The approximation used to compute the duration can also be changed by importing a new one and modify the script."""
+
 def filter_injections(mass1, mass2, spin1z, spin2z):
     """Filter injections according to O2 requirements.
 
