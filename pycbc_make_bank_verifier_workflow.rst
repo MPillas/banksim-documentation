@@ -19,4 +19,8 @@ injection sets simultaneously. For each event, the workflow:
 #. Creates diagnosis plots and figures of merit using ``pycbc_banksim_plot_eff_fitting_factor`` and ``pycbc_banksim_plot_fitting_factors``.
 #. Generates a results html page that gathers all of the results with ``pycbc_make_html_page``.
 
-The workflow generator requires a configuration file that tells it the parameter space covered by the injections, how to split the bank and the injections, and any other settings to use for the various executables that are run.
+The workflow generator requires a configuration file that tells it how to split the bank and the injections, and any other settings to use for the various executables that are run.
+
+The bank verificator workflow requires at least one set of broad injections (scattered over the parameter space) and one of point injections (at ~fix masses).
+Multiple sets of broad/point injections can be given by creating more dedicated configuration files and thus adding sections to the global configuration file.
+
