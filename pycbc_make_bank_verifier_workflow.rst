@@ -28,6 +28,5 @@ Multiple sets of broad/point injections can be given by creating more dedicated 
 A path to a Python script called ``filter_func.py`` should also be provided. One way to proceed is to download and copy the script in the same repository as the configuration files. 
 This script creates versions of the final results plots in which short-duration injections are ignored. The threshold on the duration and the approximant used to compute it can be changed by modifying your copy of the script.
 
-To illustrate how to setup and use a workflow, below we provide an example
-of how to setup the workflow to analyze
+To illustrate how to setup and use a workflow, below we provide an example for BBH injections of how to setup the workflow to analyze. BNS and NSBH injections can be added by providing other configuration files.
 
