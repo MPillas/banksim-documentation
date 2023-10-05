@@ -38,15 +38,15 @@ Get the injection configuration files
 --------------------------------------------
 **Broad injections:**
 
-.. literalinclude:: broadinjs1_config.ini 
+.. literalinclude:: ./broadinjs1_config.ini 
    :language: ini
 
-:download:`Download <broadinjs1_config.ini>`
+:download:`Download <./broadinjs1_config.ini>`
 
 **Point injections:**
 
-.. literalinclude:: pointinj_1.12_1.07_config.ini 
+.. literalinclude:: ./pointinj_1.12_1.07_config.ini 
 
    :language: ini
 
-:download:`Download <pointinj_1.12_1.07_config.ini>`
+:download:`Download <./pointinj_1.12_1.07_config.ini>`
