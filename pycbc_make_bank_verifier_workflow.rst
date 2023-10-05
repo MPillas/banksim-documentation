@@ -18,3 +18,5 @@ injection sets simultaneously. For each event, the workflow:
 #. Makes a summary result table for a set of point injection runs with ``pycbc_banksim_table_point_injs``.
 #. Creates diagnosis plots and figures of merit using ``pycbc_banksim_plot_eff_fitting_factor`` and ``pycbc_banksim_plot_fitting_factors``.
 #. Generates a results html page that gathers all of the results with ``pycbc_make_html_page``.
+
+The workflow generator requires a configuration file that tells it the parameter space covered by the injections, how to split the bank and the injections, and any other settings to use for the various executables that are run.
