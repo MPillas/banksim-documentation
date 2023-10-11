@@ -66,11 +66,10 @@ Setup the workflow configuration file
 **Notes:**
 * In the ``[pegasus_profile]`` section an accounting group should be specified.
 * If the jobs take too long to run, you can increase the ``splittable-num-banks`` parameter both for ``[workflow-splittable-*injbanksplit]`` and ``[workflow-splittable-*injs]``.
-*  Change the ``seed`` everytime you create a different workflow.
+* Change the ``seed`` everytime you create a different workflow.
 This sets the seed that is passed to ``pycbc_banksim`` (you set it here
 because it will be incremented for every ``pycbc_banksim`` job that will be
 run in the workflow).
-
 
 --------------------------------------------
 Get the filter function
