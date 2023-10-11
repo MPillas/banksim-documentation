@@ -65,7 +65,7 @@ Setup the workflow configuration file
 
 **Notes:**
 
-* In the ``[pegasus_profile]`` section an accounting group should be specified.
+* In the ``[pegasus_profile]`` section an accounting group should be specified *if* running on LDG resources. For non-LVK people this is not needed.
 
 * If the jobs take too long to run, you can increase the ``splittable-num-banks`` parameter both for ``[workflow-splittable-*injbanksplit]`` and ``[workflow-splittable-*injs]``.
 
