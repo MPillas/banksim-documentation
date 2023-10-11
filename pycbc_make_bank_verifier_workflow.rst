@@ -24,10 +24,15 @@ The workflow generator also needs configuration files that indicate the paramete
 The bank verificator workflow requires at least one set of broad injections (scattered over the parameter space) and one of point injections (at ~fix masses).
 Multiple sets of broad/point injections can be given by creating more dedicated configuration files and thus adding sections to the workflow configuration file.
 
-A path to a Python script called ``filter_func.py`` should also be provided. One way to proceed is to download and copy the script in the same repository as the configuration files. 
+A path to a Python script called ``filter_func.py`` should also be provided. 
+
+During the previous observing runs, the waveforms from the template bank PyCBC were subject to a cut based on their duration: the bank does not include templates shorter than 0.15 seconds. This threshold has historically been placed because approximants used in previous runs (2015-2016) did not work with such duration. Nowadays, this cut is still applied to prevent the search from being contaminated by short-duration glitches that match the time-frequency shape of the GW signal, making them challenging to distinguish (see Dal Canton & Harry, 2017).
+
+One way to get this filter function is to download and copy the script in the same repository as the configuration files. 
+
 This script creates versions of the final results plots in which short-duration injections are ignored. The threshold on the duration, the approximant used to compute it and the ASD file should be changed according to your needs by modifying your copy of the script.
 
-To illustrate how to setup and use a workflow, below we provide an example for BBH injections of how to setup the workflow to analyze. BNS and NSBH injections can be added by providing other configuration files.
+To illustrate how to setup and use a workflow, below we provide an example of how to setup the workflow to analyze BBH injections. BNS and NSBH injections can be added by providing other configuration files.
 
 This workflow will produce a results page that looks like the example
 `Bank verifier BBH injections <https://ldas-jobs.ligo-wa.caltech.edu/~marion.pillas/template_bank/O3PSD/BBH/bank_output_BBH/>`_. 
