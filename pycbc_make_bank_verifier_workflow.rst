@@ -63,7 +63,7 @@ Setup the workflow configuration file
 
 :download:`Download <global_setup.ini>`
 
-**Notes**:
+#. **Notes**:
 * In the ``[pegasus_profile]`` section an accounting group should be specified.
 * If the jobs take too long to run, you can increase the ``splittable-num-banks`` parameter both for ``[workflow-splittable-*injbanksplit]`` and ``[workflow-splittable-*injs]``.
 *  Change the ``seed`` everytime you create a different workflow.
