@@ -111,4 +111,4 @@ Results page
 ------------
 When the workflow has completed successfully it will write out the results
 page to the directory you specified as ``output-path`` in the ``[results_page]`` section of ``global_setup.ini``.
-You can see what the result page will look like the example `Bank verifier BBH injections <https://ldas-jobs.ligo-wa.caltech.edu/~marion.pillas/template_bank/O3PSD/BBH/bank_output_BBH/>`_. 
+You can see what the result page will look like the example `Bank verifier BBH, NSBH and BNS injections <https://ldas-jobs.ligo.caltech.edu/~marion.pillas/example_doc_banksim/bank_output_example_documentation_BBH_BNS_NSBH_final/>`_. 
