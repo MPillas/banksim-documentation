@@ -33,10 +33,9 @@ One way to get this filter function is to download and copy the script in the sa
 
 This script creates versions of the final results plots in which short-duration injections are ignored. The threshold on the duration, the approximant used to compute it and the ASD file should be changed according to your needs by modifying your copy of the script.
 
-To illustrate how to setup and use a workflow, below we provide an example of how to setup the workflow to analyze BBH injections. BNS and NSBH injections can be added by providing other configuration files.
-
+To illustrate how to setup and use a workflow, below we provide an example of how to setup the workflow to analyze BBH, NSBH and BNS injections.
 This workflow will produce a results page that looks like the example
-`Bank verifier BBH injections <https://ldas-jobs.ligo-wa.caltech.edu/~marion.pillas/template_bank/O3PSD/BBH/bank_output_BBH/>`_. 
+`Bank verifier BBH, NSBH and BNS injections <https://ldas-jobs.ligo.caltech.edu/~marion.pillas/example_doc_banksim/bank_output_example_documentation_BBH_BNS_NSBH_final/>`_. 
 
 --------------------------------------------
 Get the injection configuration files
