@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo "Remember to activate a conda environment! Some common choices are:"
-echo "conda deactivate; conda activate /home/francesco.pannarale/.conda/envs/pygrb_devel"
-echo "conda deactivate; conda activate /home/lorenzo.piccari/.conda/envs/pycbc_tesi"
-echo
+echo "Remember to activate an environment! Here I used:"
+echo "source /home/marion.pillas/project/example_documentation/env_py39/bin/activate"
 
-pycbc_make_bank_verifier_workflow --config-files global_setup.ini --workflow-name bank_verificator --output-dir /PATH/TO/OUTPUT/DIRECTORY --submit-now
+pycbc_make_bank_verifier_workflow --config-files global_setup.ini --workflow-name bank_verificator --output-dir /home/marion.pillas/project/example\
+_documentation/output_example_documentation_final/ --submit-now
